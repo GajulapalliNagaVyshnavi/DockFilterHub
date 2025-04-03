@@ -2,7 +2,6 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>DockFilterX: Ligand Filtering Criteria</title>
 </head>
 <body>
     <h1>DockFilterHub: Ligand and Protein Filtering Criteria</h1>
@@ -18,24 +17,21 @@
     <pre>
         git clone https://github.com/your-repo/DockFilterX.git
         cd DockFilterX
-        pip install -r requirements.txt
+        pip install required installations
     </pre>
-    <h2>Usage</h2>
-    <p>Run the ligand filtering script:</p>
-    <pre>
-        python filter_ligands.py --folder_path /path/to/ligand/folder --threshold 0.8
-    </pre> 
-    <p>Run the protein-ligand interaction filtering:</p>
-    <pre>
-        python filter_interactions.py --protein_folder /path/to/protein --ligand_folder /path/to/ligands --threshold -7.0
-    </pre> 
-    <h2>Validation Example</h2>
-    <pre>
-        python validate_ligand.py --sdf_file /path/to/ligand.sdf
-    </pre>
+        <h2>Usage</h2>
+    <p>DockFilterX is implemented as a Jupyter Notebook. To run it:</p>
+    <ol>
+        <li>Open the Jupyter Notebook:
+            <pre><code>jupyter notebook</code></pre>
+        </li>
+        <li>Navigate to <code>Docking_filtering_criteria_1.ipynb</code> and execute the cells step by step.</li>
+        <li>Provide your <strong>ligand and protein file paths</strong> in the notebook.</li>
+        <li>The system will return whether the given data meets the filtering criteria (<code>True</code> or <code>False</code>).</li>
+    </ol>
     <h2>Acknowledgements</h2>
-    <p><strong>Author:</strong> Gajulapalli Naga Vyshnavi</p>
-    <p><strong>Contact:</strong> nvyshnavi36@gmail.com</p>
-    <p>For any inquiries, feel free to reach out via the contact info above.</p>
+    <p>Author: Gajulapalli Naga Vyshnavi<br>
+    Contact: <a href="mailto:nvyshnavi36@gmail.com">nvyshnavi36@gmail.com </a><br>
+    For any inquiries, feel free to reach out via the contact information provided.</p>
 </body>
 </html>
